@@ -216,8 +216,4 @@ namespace ContosoUniversity.Migrations
                 crs.Instructors.Add(context.Instructors.Single(i => i.LastName == instructorName));
         }
     }
-
-    internal class DbMigrationsConfiguration<T>
-    {
-    }
 }
